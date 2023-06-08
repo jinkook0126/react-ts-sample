@@ -1,11 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-// import App from "./App";
-// import Hello from "./components/Hello";
-// import Test from "./components/Test";
-// import Parent from "./components/Container";
-import ContextSample from "./components/ContextSample";
+// import ContextSample from "./components/ContextSample";
+import Parent from "./components/Parent";
 
 import reportWebVitals from "./reportWebVitals";
 
@@ -16,12 +13,7 @@ root.render(
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>
-  // <Hello />
-  // <Test content="Jinkook" />
-  // <Container title="Jinkook JJang">
-  //   <h6>정은지도 짱</h6>
-  // </Container>
-  <ContextSample />
+  <Parent />
 );
 
 // If you want to start measuring performance in your app, pass a function
